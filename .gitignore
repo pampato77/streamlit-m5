@@ -1,2 +1,4 @@
+bayes
+tensorflow-2.0
 streamlit-env
 **/*.pyc
