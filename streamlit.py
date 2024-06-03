@@ -100,7 +100,14 @@ st.plotly_chart(fig_perf_work)
 
 #--- CONCLUSION ---#
 st.markdown("**Analisis del desempeño de los empleados**")
-st.markdown("""Con las gráficas anteriores""")
+st.markdown("""Con las gráficas anteriores se concluye que, se tiene siete empleados 
+               con el puntaje de desempeño más alto, las horas promedio trabajadas por 
+               genero es mayor en el genero femenino y aproximadamente son 775 horas 
+               promedio, los salarios por edad realmente se encuentran distribuidos, 
+               la diferencia recae en los tipos de posiciones de los empleados, 
+               hay una concentración en el puntaje de desempeño 3 con dos rangos de 
+               promedio de horas laborales, asi mismo, el departamento con mas 
+               frecuencia de horas laborales es el de IT/IS. """)
 
 
 
