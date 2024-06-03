@@ -42,7 +42,7 @@ fig_distribution_perf=px.bar(df_selection,
                              title="Distribución de Rango de desempeño",
                              labels=dict(name_employee="Nombre del empleado", 
 performance_score="Puntaje de desempeño"),
-                             color_discrete_sequence=["#7eaccb"],
+                             color_discrete_sequence=["#7EACCB"],
                              template="plotly_white")
 fig_distribution_perf.update_layout(plot_bgcolor="rgba(0,0,0,0)")
 st.plotly_chart(fig_distribution_perf)
@@ -58,7 +58,7 @@ fig_hours_gender=px.bar(avg_hours_gender,
                         orientation="v",
                         title="Promedio de horas trabajadas por genero",
                         labels=dict(average_work_hours="Total Worked Hours", gender="Gender"),
-                        color_discrete_sequence=["#7ECBB4"],
+                        color_discrete_sequence=["#F2D44B"],
                         template="plotly_white")
 
 fig_hours_gender.update_layout(plot_bgcolor="rgba(0,0,0,0)")
