@@ -44,7 +44,7 @@ fig_distribution_perf=px.bar(df_selection,
 performance_score="Puntaje de desempeño"),
                              color_discrete_sequence=["#7EACCB"],
                              template="plotly_white")
-fig_distribution_perf.update_layout(plot_bgcolor="rgba(0,0,0,0)")
+fig_distribution_perf.update_layout(plot_bgcolor="rgba(1,2,3,4)")
 st.plotly_chart(fig_distribution_perf)
 
 #Grafica del promedio de horas trabajadas por el genero del empleado
