@@ -40,9 +40,9 @@ fig_distribution_perf=px.bar(df_selection,
                              x=name,
                              y=performance,
                              title="Distribución de Rango de desempeño",
-                             labels=dict(name_employee="Employee Name", 
-performance_score="Performance Score"),
-                             color_discrete_sequence=["#7ECBB4"],
+                             labels=dict(name_employee="Nombre del empleado", 
+performance_score="Puntaje de desempeño"),
+                             color_discrete_sequence=["#7eaccb"],
                              template="plotly_white")
 fig_distribution_perf.update_layout(plot_bgcolor="rgba(0,0,0,0)")
 st.plotly_chart(fig_distribution_perf)
